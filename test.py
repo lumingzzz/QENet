@@ -58,7 +58,7 @@ def valid():
                     if test_augment == True:
                         out_sum = torch.zeros(in_img.shape).cuda()
 
-                        for k in range(0, 4):
+                        for k in range(0, 2):
 
                             in_imgs = torch.rot90(torch.stack([ref1_img, ref2_img, ref3_img, in_img, ref4_img, ref5_img, ref6_img], dim=1), k, [3,4])
                             in_imgs = in_imgs.cuda()
@@ -155,7 +155,7 @@ def test():
                     if test_augment == True:
                         out_sum = torch.zeros(in_img.shape).cuda()
 
-                        for k in range(0, 4):
+                        for k in range(0, 2):
 
                             in_imgs = torch.rot90(torch.stack([ref1_img, ref2_img, ref3_img, in_img, ref4_img, ref5_img, ref6_img], dim=1), k, [3,4])
                             in_imgs = in_imgs.cuda()
@@ -302,7 +302,7 @@ def test_full():
                     if test_augment == True:
                         out_sum = torch.zeros(in_img.shape).cuda()
 
-                        for k in range(0, 4):
+                        for k in range(0, 2):
 
                             in_imgs = torch.rot90(torch.stack([ref1_img, ref2_img, ref3_img, in_img, ref4_img, ref5_img, ref6_img], dim=1), k, [3,4])
                             in_imgs = in_imgs.cuda()
