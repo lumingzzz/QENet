@@ -1,5 +1,5 @@
 # QENet
-The Codes for NJUVision, which took part in track1 of the NTIRE 2021 Challenge on Quality Enhancement of Compressed Video. More details can be found in https://github.com/RenYang-home/NTIRE21_VEnh.
+The codes for NJUVision, which took part in track1 of the NTIRE 2021 Challenge on Quality Enhancement of Compressed Video. More details can be found in https://github.com/RenYang-home/NTIRE21_VEnh.
 ### Environment
 PyTorch = 1.8 
 
